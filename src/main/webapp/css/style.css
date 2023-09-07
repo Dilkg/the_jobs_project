@@ -9,6 +9,26 @@ html, body{
 	background:	#fff;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.btn-warning {
+	color: #fff;
+	background-color: #151515;
+	border-color: #000000;
+}
+
+.btn-warning:hover {
+	color: #fff;
+	background-color: #000000;
+	border-color: #000000;
+}
+
+.banner{
+	background-color: deepskyblue;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+
 h4, h5, h6,
 h1, h2, h3 {
 margin: 0;
@@ -176,7 +196,7 @@ ul.con-icons{
 }
 /*-- //contact --*/
 .header{
-	background:#00a4e4;
+	background:#080808;
 }
 .header_left {
     float: left;
@@ -271,7 +291,7 @@ ul.con-icons{
 	color:#000;
 }
 .logo h1 a,.logo h1 a:hover{
-    color: #FDA30E;	
+    color: #000000;
 	text-decoration:none;	
 }
 .logo h1 a i{
@@ -374,7 +394,7 @@ li.menu__item.menu__item--current a.menu__link {
 .menu--horatio .menu__item:hover a::before,
 .menu--horatio .menu__item:hover a::after {
 	content: '';
-	border-color:#FDA30E;
+	border-color:#000000;
 }
 
 .menu--horatio .menu__item:not(.menu__item--current):hover::before,
@@ -720,7 +740,7 @@ ul.social-slide li i.mac{
   -ms-border-radius: 30px;
 }
 .callbacks_here a:after{
-	background: #00a4e4;	
+	background: #000000;
 }
 a.callbacks_nav.callbacks2_nav.prev {
 background: transparent url("../images/2.png") no-repeat left top;
@@ -752,13 +772,13 @@ top: 9%;
     font-weight: normal;
     background: none;
     border: 1px solid #E6E4E4;
-    color: #D2D1D1;
+    color: #000000;
     outline: none;
     font-size: 14px;
     margin: 6px 0 17px 0px;
 }
 .login-right input[type="text"]:hover, .login-right input[type="password"]:hover, .login-bottom input[type="text"]:hover, .login-bottom input[type="password"]:hover{
-    border: 1px solid #FDA30E;	
+    border: 1px solid #000000;
 }
 .login-right h4,.login-bottom h4 {
     color: #000000;
@@ -783,7 +803,7 @@ top: 9%;
 }
 .login-right input[type="submit"]:hover,.login-bottom input[type="submit"]:hover {
 
-    background: #FDA30E;
+    background: #000000;
 }
 .modal-dialog {
     width: 525px;
@@ -793,7 +813,7 @@ top: 9%;
     border-bottom: none;
 }
 .login-right h3 ,.login-bottom h3{
-    color: #FDA30E;
+    color: #000000;
     font-size: 22px;
     margin-bottom: 23px;
 }
@@ -803,7 +823,7 @@ top: 9%;
     text-decoration: none;
 }
 .sign-in a:hover{
-    color: #FDA30E;	
+    color: #000000;
 }
 .single-bottom input[type="checkbox"] {
   display: none;
@@ -821,7 +841,7 @@ top: 9%;
 	width: 14px;
     height: 14px;
     display: inline-block;
-    border:2px solid #FDA30E;
+    border:2px solid #000000;
     position: absolute;
     left: 0;
     top: 4px;
@@ -850,7 +870,7 @@ top: 9%;
     text-decoration: none;
 }
 .login-grids p a:hover{
-    color: #FDA30E;	
+    color: #000000;
 }
 /*-- //login --*/
 /*-- banner --*/
@@ -860,7 +880,7 @@ top: 9%;
     margin-top: 11em;
 }
 .banner-info h3,.banner-info2 h3 {
-    color: #00A4E4;
+    color: #000000;
     font-size: 35px;
     line-height: 1.5em;
 }
@@ -878,7 +898,7 @@ top: 9%;
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
-    background: #FDA30E;
+    background: #000000;
     padding: 11px 19px;
     color: #fff;
     font-size: 16px;
@@ -887,7 +907,7 @@ top: 9%;
 .hvr-outline-out:before {
   content: '';
   position: absolute;
-  border: #FDA30E solid 4px;
+  border: #000000 solid 4px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -956,7 +976,7 @@ top: 9%;
 }
 
 .content_middle h3{
-    color: #00A4E4;
+    color: #000000;
     font-size: 27px;
     margin-bottom: 30px;
     text-align: center;		
@@ -964,14 +984,14 @@ top: 9%;
 .content_middle input[type="text"],.content_middle select{
 	background:none;
 	color:#999;
-	border:1px solid #00A4E4;
+	border:1px solid #000000;
 	outline:none;
 	width:100%;
 	margin-bottom:15px;
 	padding:8px 10px;	
 }
 .content_middle input[type="submit"]{
-	background:#FDA30E;
+	background:#151515;
 	padding:10px 20px;
 	font-size:16px;
 	color:#fff;	
@@ -979,7 +999,7 @@ top: 9%;
 	outline:none;
 }
 .content_middle input[type="submit"]:hover{
-	background:#00A4E4;
+	background:#000000;
 }
 /*-- //content --*/
 /*-- services --*/
@@ -1881,6 +1901,7 @@ p.para_abt {
 @media (max-width: 1024px){
 	.banner2,.banner1 {
 		min-height: 665px;
+		background: aqua;
 	}
 	.banner-info, .banner-info2 {
 		margin-top: 6em;
@@ -1897,6 +1918,7 @@ p.para_abt {
 	}
 	.banner2, .banner1 {
 		min-height: 499px;
+		background: aqua;
 	}
 	.content_left ul li {
 		line-height: 2.7em;
@@ -2217,6 +2239,7 @@ p.para_abt {
 	}
 	.banner2, .banner1 {
 		min-height: 384px;
+		background: aqua;
 	}
 	.banner-info, .banner-info2 {
 		margin-top: 5em;
@@ -2445,6 +2468,7 @@ p.para_abt {
 	}	
 	.banner2, .banner1 {
 		min-height: 322px;
+		background: aqua;
 	}
 	.banner-info2 p {
 		margin: 7px 0 13px;

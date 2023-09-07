@@ -87,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <div class="header-bottom ">
     <div class="container">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-dark">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </button>
                 <div class="logo grid">
                     <div class="grid__item color-3">
-                        <h1><a class="link link--nukun" href="index.jsp">Consultation<span>Appointment</span></a></h1>
+                        <h1><a class="link link--nukun" href="index.jsp">The<span>Jobs</span></a></h1>
                     </div>
                 </div>
             </div>
